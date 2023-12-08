@@ -221,7 +221,7 @@ async def stats(ctx, *, roninAddress):
   embed = printStats(roninAddress)
   await ctx.message.channel.send(embed=embed)
   
-BOT_TOKEN = 'ODc3NTc3NDQ0MTIxNTE4MDgx.YR0prw.FEz2vPUcgSNJxJ4XnSaZtQXK1_k'
+BOT_TOKEN = ''
 
 client.loop.create_task(change_status())
 
